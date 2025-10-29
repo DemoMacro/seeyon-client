@@ -1,0 +1,53 @@
+{
+  "name": "seeyon-client",
+  "version": "0.0.0",
+  "description": "一个现代化的、以 TypeScript 为首的 Seeyon REST API 客户端库",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub",
+    "prepack": "pnpm build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemoMacro/seeyon-client.git"
+  },
+  "keywords": [
+    "seeyon",
+    "client",
+    "api",
+    "cap4",
+    "form",
+    "workflow",
+    "typescript",
+    "esm",
+    "rest"
+  ],
+  "author": {
+    "name": "Demo Macro",
+    "email": "abc@imst.xyz",
+    "url": "https://imst.xyz/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DemoMacro/seeyon-client/issues"
+  },
+  "homepage": "https://github.com/DemoMacro/seeyon-client#readme",
+  "devDependencies": {
+    "ofetch": "1.5.0"
+  }
+}

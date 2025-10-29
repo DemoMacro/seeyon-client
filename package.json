@@ -1,0 +1,53 @@
+{
+  "name": "seeyon-client-edge",
+  "version": "0.0.0",
+  "description": "一个现代化的、以 TypeScript 为首的 Seeyon REST API 客户端库",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r prepack",
+    "dev": "pnpm -r dev",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "test:coverage": "vitest run --coverage",
+    "lint": "basis lint --all",
+    "postinstall": "basis git setup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemoMacro/seeyon-client.git"
+  },
+  "keywords": [
+    "seeyon",
+    "client",
+    "api",
+    "cap4",
+    "form",
+    "workflow",
+    "typescript",
+    "esm",
+    "rest"
+  ],
+  "author": {
+    "name": "Demo Macro",
+    "email": "abc@imst.xyz",
+    "url": "https://imst.xyz/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DemoMacro/seeyon-client/issues"
+  },
+  "homepage": "https://github.com/DemoMacro/seeyon-client#readme",
+  "devDependencies": {
+    "@funish/basis": "0.1.2",
+    "@prettier/plugin-oxc": "0.0.4",
+    "@types/node": "24.9.2",
+    "@vitest/coverage-v8": "4.0.4",
+    "oxlint": "1.24.0",
+    "oxlint-tsgolint": "0.3.0",
+    "prettier": "3.6.2",
+    "unbuild": "3.6.1",
+    "vite-node": "3.2.4",
+    "vitest": "4.0.4"
+  },
+  "packageManager": "pnpm@10.17.0+sha512.fce8a3dd29a4ed2ec566fb53efbb04d8c44a0f05bc6f24a73046910fb9c3ce7afa35a0980500668fa3573345bd644644fa98338fa168235c80f4aa17aa17fbef"
+}
